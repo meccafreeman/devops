@@ -1,6 +1,6 @@
 # importing the regular expression
 import re
-# this is the regular expression that check for non standard characters
+# this is the regular expression that checks for non-standard characters
 name_exp = r'[^\d\`\~\!\@\#\$\%\^\&\*\(\)|-|_\+\=\{\}\[\]\:\;\'\"\<\,\>\.\?\/\\]+'
 # this is the regular expression that checks for a-z A-Z characters only
 alpha_exp = r'[a-zA-Z]+'
